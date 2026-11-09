@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>每日阅读 2026-11-01</title>
+  <style>
+    :root { --line: #e5e5e5; --muted: #777; --accent: #2b6cb0; }
+    * { box-sizing: border-box; }
+    body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; margin: 0; color: #222; background: #fafafa; }
+    main { max-width: 680px; margin: 0 auto; padding: 1rem; }
+    h1 { font-size: 1.25rem; } h2 { font-size: 1.05rem; margin-top: 1.4rem; }
+    .muted { color: var(--muted); font-size: 0.85em; }
+    .card { background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 0.9rem 1rem; margin: 0.7rem 0; }
+    .card h3 { margin: 0 0 0.35rem; font-size: 1rem; }
+    .badge { display: inline-block; border-radius: 5px; padding: 0 0.45em; font-size: 0.78em; background: #eee; color: #555; margin-right: 0.4em; vertical-align: 1px; }
+    .badge.deep { background: #e3f0e3; color: #2f6b2f; }
+    .badge.pending { background: #fdf3e0; color: #9a6a1a; }
+    ul { margin: 0.3rem 0 0; padding-left: 1.2em; }
+    li { margin: 0.15em 0; }
+    a { color: var(--accent); text-decoration: none; }
+    .nav { display: flex; gap: 0.7em; flex-wrap: wrap; margin: 0.5rem 0 1rem; font-size: 0.9em; }
+    footer { text-align: center; color: var(--muted); font-size: 0.8em; padding: 1.5rem 0; }
+  </style>
+</head>
+<body>
+<main>
+  <div class="nav">
+    <a href="index.html">最新</a>
+    <a href="daily/2026-11-01.html">11-01</a>
+  </div>
+  
+<h1>每日阅读 · 2026-11-01</h1>
+
+<h2>精选(8 条)</h2>
+
+
+  <article class="card">
+    <h3>
+      <span class="badge deep" title="AI 操控浏览器是 Agent 开发的核心场景之一,该库是该领域代表性开源项目,值得细看。">★ 值得深入</span>
+      
+      <a href="https://github.com/browser-use/browser-use" rel="noopener noreferrer nofollow" target="_blank">Browser Use —— AI 浏览器代理开源库 ↗</a>
+    </h3>
+    <p class="muted" style="margin:0.1rem 0">原文:browser-use/browser-use</p>
+    <p style="margin:0.35rem 0">一个开源 Python 库,让 AI 代理能操控浏览器执行网页自动化任务;另提供 Browser Use 云服务,包含隐身浏览器和托管代理 API。</p>
+    
+      <p style="margin:0.35rem 0"><strong style="font-size:0.9em">值得看的点</strong></p>
+      <ul><li>让 LLM 代理直接操作浏览器,是构建网页自动化 Agent 项目的热门基础组件</li><li>开源可自部署,同时提供云托管 API,覆盖从原型到上线的不同需求</li><li>对独立开发者可借鉴其将网页状态转化为模型可理解输入的思路</li><li>定位聚焦于&#39;AI 操控浏览器&#39;这一具体场景,问题域清晰</li></ul>
+    
+    
+      <details>
+        <summary class="muted" style="margin-top:0.4rem">优缺点(初步判断)</summary>
+        <p style="margin:0.35rem 0 0"><strong style="font-size:0.9em">优点</strong></p>
+        <ul><li>开源 Python 库,接入门槛相对低</li><li>提供云托管选项,免去自建浏览器环境的运维负担</li><li>同时覆盖自部署与云端两种使用方式,灵活性较好</li></ul>
+        <p style="margin:0.35rem 0 0"><strong style="font-size:0.9em">缺点 / 局限</strong></p>
+        <ul><li>简介信息简短,功能细节、稳定性与反检测效果需自行验证</li><li>云服务为托管付费形态(推测),成本与数据隐私需自行评估</li><li>网页结构变化导致代理不稳定是此类项目的普遍难点</li></ul>
+      </details>
+    
+  </article>
+
+  <article class="card">
+    <h3>
+      <span class="badge deep" title="知名开源项目,功能恰好覆盖 RAG、MCP、text-to-SQL 等热点,对想自建私有 AI 应用的独立开发者参考价值高,值得点开细看。">★ 值得深入</span>
+      
+      <a href="https://github.com/zylon-ai/private-gpt" rel="noopener noreferrer nofollow" target="_blank">privateGPT:本地私有化 AI 应用 API 层 ↗</a>
+    </h3>
+    <p class="muted" style="margin:0.1rem 0">原文:zylon-ai/private-gpt</p>
+    <p style="margin:0.35rem 0">知名开源项目,为基于本地模型的私有 AI 应用提供完整 API 层,集成 RAG、技能、工具调用、MCP、text-to-SQL 等能力,兼容任意 OpenAI 兼容推理服务器。</p>
+    
+      <p style="margin:0.35rem 0"><strong style="font-size:0.9em">值得看的点</strong></p>
+      <ul><li>把 RAG、tools、MCP、text-to-SQL 等常用 AI 能力封装进统一 API 层,可作为自建 AI 应用的后端骨架</li><li>主打本地化部署与数据隐私,适合对数据不出本地有要求的场景</li><li>模型无关设计,兼容 OpenAI 接口生态,方便独立开发者随时替换底层推理服务</li><li>对想学习私有化 RAG 架构和 API 分层设计的开发者是现成的参考实现</li></ul>
+    
+    
+      <details>
+        <summary class="muted" style="margin-top:0.4rem">优缺点(初步判断)</summary>
+        <p style="margin:0.35rem 0 0"><strong style="font-size:0.9em">优点</strong></p>
+        <ul><li>功能覆盖面广,一个项目覆盖多个热门方向</li><li>兼容 OpenAI 生态,接入门槛相对低</li><li>定位清晰:专注本地私有化场景</li></ul>
+        <p style="margin:0.35rem 0 0"><strong style="font-size:0.9em">缺点 / 局限</strong></p>
+        <ul><li>简介未说明文档质量、部署资源要求和上手难度</li><li>维护活跃度和版本迭代情况需自行确认</li><li>偏后端 API 层,需要自己搭前端或写客户端</li></ul>
+      </details>
+    
+  </article>
+
+  <article class="card">
+    <h3>
+      <span class="badge deep" title="开源浏览器自动化 Agent 切中独立开发者常见需求,&#39;复用真实登录态浏览器&#39;的思路有明确参考价值,值得点开细看实现。">★ 值得深入</span>
+      
+      <a href="https://github.com/nanobrowser/nanobrowser" rel="noopener noreferrer nofollow" target="_blank">nanobrowser:开源网页自动化 AI Agent ↗</a>
+    </h3>
+    <p class="muted" style="margin:0.1rem 0">原文:nanobrowser/nanobrowser</p>
+    <p style="margin:0.35rem 0">一个开源的网页自动化 AI 智能体,以浏览器扩展形式运行,利用用户真实、已登录的浏览器来自动完成日常网页任务。</p>
+    
+      <p style="margin:0.35rem 0"><strong style="font-size:0.9em">值得看的点</strong></p>
+      <ul><li>核心思路新颖:直接复用用户真实登录态的浏览器,绕开无头浏览器/云浏览器难以处理登录态和验证的痛点</li><li>开源项目,适合独立开发者研究&#39;LLM + 浏览器扩展&#39;的 Agent 架构与实现</li><li>定位类似 OpenAI Operator 等商业产品的开源替代,对个人自动化场景实用性强</li></ul>
+    
+    
+      <details>
+        <summary class="muted" style="margin-top:0.4rem">优缺点(初步判断)</summary>
+        <p style="margin:0.35rem 0 0"><strong style="font-size:0.9em">优点</strong></p>
+        <ul><li>开源,可自行部署和二次开发</li><li>使用真实浏览器环境,理论上能覆盖需要登录的日常任务</li></ul>
+        <p style="margin:0.35rem 0 0"><strong style="font-size:0.9em">缺点 / 局限</strong></p>
+        <ul><li>简介过于简短,未说明支持的模型、扩展程序具体形态和维护活跃度</li><li>网页自动化 Agent 这类项目整体仍面临可靠性、反爬和页面变化导致的稳定性问题</li><li>同类项目(如 browser-use 等)较多,需对比确认其差异化优势</li></ul>
+      </details>
+    
+  </article>
+
+  <article class="card">
+    <h3>
+      <span class="badge">快速浏览</span>
+      
+      <a href="https://github.com/rockbenben/ChatGPT-Shortcut" rel="noopener noreferrer nofollow" target="_blank">ChatGPT-Shortcut 提示词快捷库 ↗</a>
+    </h3>
+    <p class="muted" style="margin:0.1rem 0">原文:rockbenben/ChatGPT-Shortcut</p>
+    <p style="margin:0.35rem 0">一个开源的提示词库工具,为 ChatGPT、Claude、Gemini、Cursor 等 AI 工具提供可搜索、分类的现成提示词,支持多语言界面,并可将常用提示词收藏到自己的库中。</p>
+    
+      <p style="margin:0.35rem 0"><strong style="font-size:0.9em">值得看的点</strong></p>
+      <ul><li>覆盖多个主流 AI 工具(ChatGPT/Claude/Gemini/Cursor),不只是单一模型的提示词合集</li><li>可搜索 + 可收藏到个人库的产品设计,提示词管理思路值得借鉴</li><li>开源项目,想自己做提示词管理工具的开发者可以直接参考其结构与实现</li><li>支持十余种语言界面,国际化做法可参考</li></ul>
+    
+    
+      <details>
+        <summary class="muted" style="margin-top:0.4rem">优缺点(初步判断)</summary>
+        <p style="margin:0.35rem 0 0"><strong style="font-size:0.9em">优点</strong></p>
+        <ul><li>开源,可自行部署或二次开发</li><li>多模型覆盖,适用面较广</li><li>多语言支持降低了非英语用户的使用门槛</li></ul>
+        <p style="margin:0.35rem 0 0"><strong style="font-size:0.9em">缺点 / 局限</strong></p>
+        <ul><li>提示词库类项目同质化严重,差异化程度需进一步查看内容才能判断</li><li>简介未说明提示词的筛选与更新机制,质量与维护频率存疑</li></ul>
+      </details>
+    
+  </article>
+
+  <article class="card">
+    <h3>
+      <span class="badge deep" title="浏览器基础设施是做 AI Agent 的刚需痛点,一个可自部署的开源方案对独立开发者直接可用,值得点开细看。">★ 值得深入</span>
+      
+      <a href="https://github.com/steel-dev/steel-browser" rel="noopener noreferrer nofollow" target="_blank">Steel Browser:面向 AI Agent 的开源浏览器 API ↗</a>
+    </h3>
+    <p class="muted" style="margin:0.1rem 0">原文:steel-dev/steel-browser</p>
+    <p style="margin:0.35rem 0">一个开源的浏览器沙箱/API 项目,专为 AI Agent 和应用设计,提供托管的浏览器会话来执行网页自动化,免去自建基础设施的麻烦。</p>
+    
+      <p style="margin:0.35rem 0"><strong style="font-size:0.9em">值得看的点</strong></p>
+      <ul><li>定位是 Browserbase 等商业浏览器基础设施的开源替代,可自部署,对独立开发者成本友好</li><li>专为 AI Agent 场景设计:会话管理、代理等&#39;电池全含&#39;,直接解决了做 Agent 时最头疼的浏览器环境问题</li><li>以 API 形式暴露浏览器能力,可以很容易地接入自己的 LLM Agent 流程</li><li>代码开源,想研究&#39;Agent 浏览器基础设施怎么设计&#39;的话可直接读源码</li></ul>
+    
+    
+      <details>
+        <summary class="muted" style="margin-top:0.4rem">优缺点(初步判断)</summary>
+        <p style="margin:0.35rem 0 0"><strong style="font-size:0.9em">优点</strong></p>
+        <ul><li>开源可自托管,不依赖付费云服务</li><li>开箱即用(batteries-included),降低网页自动化的运维门槛</li><li>目标场景明确,专为 AI Agent 与应用设计</li></ul>
+        <p style="margin:0.35rem 0 0"><strong style="font-size:0.9em">缺点 / 局限</strong></p>
+        <ul><li>简介非常简短,具体功能(如验证码处理、隐身/反检测能力)未说明</li><li>自托管浏览器基础设施资源消耗较大,部署和运维有一定门槛</li><li>该赛道竞品较多(Browserbase、Browser-use 等),差异化程度未知</li></ul>
+      </details>
+    
+  </article>
+
+  <article class="card">
+    <h3>
+      <span class="badge deep" title="链路完整、开源且有组织背书,ASR+LLM 自动剪辑的思路对想做视频/内容工具的独立开发者参考价值高,值得细看实现方式。">★ 值得深入</span>
+      
+      <a href="https://github.com/modelscope/FunClip" rel="noopener noreferrer nofollow" target="_blank">FunClip——LLM 辅助的视频转写与剪辑工具 ↗</a>
+    </h3>
+    <p class="muted" style="margin:0.1rem 0">原文:modelscope/FunClip</p>
+    <p style="margin:0.35rem 0">ModelScope 开源的视频处理工具:用 FunASR 做语音转写和字幕生成,再由大模型根据文字内容挑选片段自动剪出视频,带本地 Gradio 界面。</p>
+    
+      <p style="margin:0.35rem 0"><strong style="font-size:0.9em">值得看的点</strong></p>
+      <ul><li>ASR 转写 → LLM 选段 → 剪辑的完整流水线,是把语音识别与大模型结合做内容工具的典型可参考架构</li><li>本地 Gradio 界面,可私有部署,适合独立开发者在此基础上改造成自己的视频处理工具</li><li>出自 ModelScope(阿里系开源社区),底层是成熟的 FunASR,工程完成度和识别质量相对有保障</li><li>转写、字幕、剪辑一体化,能产出带字幕的成片,贴近短视频制作的真实需求</li></ul>
+    
+    
+      <details>
+        <summary class="muted" style="margin-top:0.4rem">优缺点(初步判断)</summary>
+        <p style="margin:0.35rem 0 0"><strong style="font-size:0.9em">优点</strong></p>
+        <ul><li>开源免费,本地运行,数据不出本机</li><li>功能链路完整,不是单一功能 demo</li><li>有知名开源组织维护背书</li></ul>
+        <p style="margin:0.35rem 0 0"><strong style="font-size:0.9em">缺点 / 局限</strong></p>
+        <ul><li>简介信息有限,LLM 选段的实际效果、支持的模型和显卡/算力要求需点开仓库确认</li><li>本地部署对普通用户有一定环境搭建门槛</li></ul>
+      </details>
+    
+  </article>
+
+  <article class="card">
+    <h3>
+      <span class="badge">快速浏览</span>
+      
+      <a href="https://github.com/ArvinLovegood/go-stock" rel="noopener noreferrer nofollow" target="_blank">go-stock:AI 股票分析与选股工具 ↗</a>
+    </h3>
+    <p class="muted" style="margin:0.1rem 0">原文:ArvinLovegood/go-stock</p>
+    <p style="margin:0.35rem 0">一个开源的 AI 股票分析/选股工具,提供行情获取、AI 资讯与资金财务分析、涨跌报警推送和市场/个股情绪分析,支持 A 股、港股、美股。</p>
+    
+      <p style="margin:0.35rem 0"><strong style="font-size:0.9em">值得看的点</strong></p>
+      <ul><li>聚合了多种 LLM 接入方式(DeepSeek、OpenAI、Ollama、LMStudio、硅基流动等),本地模型与云端模型可切换,是学习多后端 AI 应用架构的好例子</li><li>数据全部保留本地,展示了敏感金融场景下的本地化数据处理思路</li><li>将 AI 用于热点资讯分析、资金/财务分析和情绪分析,是 AI + 结构化数据结合的完整应用案例</li><li>覆盖 A 股、港股、美股三个市场,功能链路完整(行情→分析→报警推送)</li></ul>
+    
+    
+      <details>
+        <summary class="muted" style="margin-top:0.4rem">优缺点(初步判断)</summary>
+        <p style="margin:0.35rem 0 0"><strong style="font-size:0.9em">优点</strong></p>
+        <ul><li>功能覆盖面广,从行情到 AI 分析到报警推送形成闭环</li><li>模型接入灵活,支持多家云端 API 和本地模型</li><li>本地存储数据,隐私友好</li></ul>
+        <p style="margin:0.35rem 0 0"><strong style="font-size:0.9em">缺点 / 局限</strong></p>
+        <ul><li>AI 股票分析的实际效果无法验证,参考价值存疑</li><li>AI + 股票分析类项目较多,同质化风险</li><li>简介未提及项目活跃度、星数和维护状态,需自行确认</li></ul>
+      </details>
+    
+  </article>
+
+  <article class="card">
+    <h3>
+      <span class="badge">快速浏览</span>
+      
+      <a href="https://github.com/Usagi-org/ai-goofish-monitor" rel="noopener noreferrer nofollow" target="_blank">闲鱼 AI 监控助手 ↗</a>
+    </h3>
+    <p class="muted" style="margin:0.1rem 0">原文:Usagi-org/ai-goofish-monitor</p>
+    <p style="margin:0.35rem 0">一个基于 Playwright 与 AI 的闲鱼商品监控开源项目，支持多任务实时/定时监控与智能分析，并配有后台管理 UI，帮助用户从海量闲鱼商品中筛选心仪目标。</p>
+    
+      <p style="margin:0.35rem 0"><strong style="font-size:0.9em">值得看的点</strong></p>
+      <ul><li>「浏览器自动化 + AI 分析」的组合思路可直接借鉴到其他监控场景</li><li>监控、智能分析、后台管理 UI 三位一体，是个人自动化工具的完整样板</li><li>技术栈常见(Playwright)，对独立开发者而言门槛不高、源码可读</li></ul>
+    
+    
+      <details>
+        <summary class="muted" style="margin-top:0.4rem">优缺点(初步判断)</summary>
+        <p style="margin:0.35rem 0 0"><strong style="font-size:0.9em">优点</strong></p>
+        <ul><li>功能描述完整：从抓取到分析到管理后台形成闭环</li><li>开源项目，可直接查看实现细节</li><li>面向真实需求(捡漏/蹲货)，有实用价值</li></ul>
+        <p style="margin:0.35rem 0 0"><strong style="font-size:0.9em">缺点 / 局限</strong></p>
+        <ul><li>依赖闲鱼平台，存在反爬升级、封号和平台合规风险，项目可持续性存疑</li><li>简介信息有限，无法判断成熟度、维护活跃度与实际效果</li><li>闲鱼监控类开源项目较多，同质化程度偏高</li></ul>
+      </details>
+    
+  </article>
+
+
+<h2>待判断(2 条)</h2>
+
+
+  <article class="card">
+    <h3><a href="https://github.com/dipakkr/awesome-ai-engineering" rel="noopener noreferrer nofollow" target="_blank">AI 工程资源合集 awesome-ai-engineering ↗</a></h3>
+    <p style="margin:0.3rem 0">一个 GitHub 上的 AI 工程资源精选清单(awesome list),汇总 LLM、RAG、AI Agent、MCP、微调、评估与生产级 AI 系统相关的学习资源、路线图、工具和项目。</p>
+  </article>
+
+  <article class="card">
+    <h3><a href="https://github.com/medusajs/medusa" rel="noopener noreferrer nofollow" target="_blank">Medusa 开源电商平台 ↗</a></h3>
+    <p style="margin:0.3rem 0">Medusa 是一个开源电商(商务)平台,简介中将其定位为面向 AI Agent 和开发者的&#39;最灵活商务平台&#39;,暗示其正在向智能体可调用的商务基础设施方向转型。</p>
+  </article>
+
+
+  <footer>生成于 2026-11-09 20:34 · ai-project-collector 快照 · 未开放评论</footer>
+</main>
+</body>
+</html>
